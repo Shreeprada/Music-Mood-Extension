@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Popup</title>
+    <style>
+        body{
+            width:350px;
+            background: grey;
+        }
+        h1{
+            color:bisque;
+        }
+        .play{
+            background-color: rgb(2, 110, 2);
+            color: white;
+            cursor: pointer;
+        }
+        .play:active{
+            background-color: rgb(5, 238, 5);
+        }
+        
+        .pause{
+            background-color: rgb(151, 3, 3);
+            color: white;
+            cursor: pointer;
+        }
+        .pause:active{
+            background-color: rgb(252, 10, 10);
+        }
+    </style>
+</head>
+<body>
+    <h1>Play Some Music!</h1>
+    <select>
+        <option value="track1" selected>Track One</option>
+        <option value="track2">Track Two</option>
+        <option value="track3">Track Three</option>
+    </select>
+    <button class="play">Play!</button>
+    <button class="pause">Pause!</button>
+</body>
+<script src="popup.js"></script>
+</html>
